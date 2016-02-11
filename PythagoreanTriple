@@ -1,0 +1,24 @@
+print "This program checks if the triangle is a pythagorean triple\n"
+while 1>0:
+    side1=raw_input("Enter length of first side: ")
+    side2=raw_input("Enter length of second side: ")
+    side3=raw_input("Enter length of third side: ")
+
+    side1=int(side1)
+    side2=int(side2)
+    side3=int(side3)
+
+    side_list=[]
+    side_list.append(side1)
+    side_list.append(side2)
+    side_list.append(side3)
+
+    side_list.sort()
+    c=side_list[2]
+    b=side_list[1]
+    a=side_list[0]
+
+    if a**2+b**2==c**2:
+        print str(a)+", "+str(b)+", "+str(c)+" are a pythagorean triple.\n"
+    else:
+        print "you numbers are not a pythagorean triple. try again with different numbers\n"
