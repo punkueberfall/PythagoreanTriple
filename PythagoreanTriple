@@ -21,4 +21,4 @@ while 1>0:
     if a**2+b**2==c**2:
         print str(a)+", "+str(b)+", "+str(c)+" are a pythagorean triple.\n"
     else:
-        print "you numbers are not a pythagorean triple. try again with different numbers\n"
+        print "your numbers are not a pythagorean triple. try again with different numbers\n"
